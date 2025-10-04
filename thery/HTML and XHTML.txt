@@ -1,0 +1,18 @@
+18. What is difference between HTML and XHTML? 
+
+ans:-
+HTML(HyperText Markup Language)
+Not case-sensitive (<BODY> = <body>)
+Some tags can skip closing tag (<br>, <img>)
+Can be flexible
+Can omit quotes sometimes
+Not strict
+
+
+
+XHTML(Extensible HyperText Markup Language)
+Must use lowercase (<body>)
+Every tag must be closed (<br />, <img />)
+Must be properly nested
+Always in quotes
+Must have doctype declaration

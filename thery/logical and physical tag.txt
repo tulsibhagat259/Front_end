@@ -1,0 +1,16 @@
+19. What are logical and physical tags in HTML? 
+ans:-
+Logical Tags:-
+<strong>
+<em>
+<cite>
+<code>
+
+
+
+Physical Tags:-
+<b>
+<i>
+<u>
+<sup>
+

@@ -1,0 +1,9 @@
+ 1.Are the HTML tags and elements the same thing?
+ans:-HTML tag: The code inside angle brackets, like <h1> or </h1>.
+
+HTML element: The whole thing — opening tag, content, and closing tag together.
+
+<h1>:-opening tag 
+</h1>:-closing tag
+
+example:-<h1>hello</h1>

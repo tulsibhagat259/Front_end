@@ -1,0 +1,22 @@
+2.What are tags and attributes in HTML? 
+ans:-
+
+tags:-Tags are the building blocks of HTML.
+
+They tell the browser what kind of content something is.
+
+Written inside angle brackets < >.
+
+Most come in pairs:
+
+<h1>This is a pag</h1>
+
+
+Attributes:-Attributes give extra information about a tag.
+
+They are written inside the opening tag.
+
+Always follow the pattern:
+
+
+<img src="flower.jpg"alt="A red flower">

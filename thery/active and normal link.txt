@@ -1,0 +1,17 @@
+15.How are active links different from normal links?
+
+ans:-
+
+normal link:-
+This is the default state of a hyperlink before the user interacts with it.
+Usually appears blue and underlined .
+
+
+ex:-<a href="https://www.github.com">Visit Example</a>
+
+
+active link:-
+This is the state while the link is being clicked 
+Often appears different in color to show it is active.
+You can style it in CSS using the :active pseudo-class.
+Example:<a href="https://www.youtube.com" class="blue">Visit Example</a>

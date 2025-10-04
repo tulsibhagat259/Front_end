@@ -1,0 +1,7 @@
+14. How to insert a picture into a background image of a web page? 
+
+ans:-
+<body style="background-image: url('background.jpg');">
+  <h1>Welcome to my website!</h1>
+  <p>This page has a background image.</p>
+</body>

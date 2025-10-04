@@ -1,0 +1,10 @@
+13.What is the use of a span tag? Explain with example? 
+
+ans:-<span> is an inline element.
+
+It does not create a new line (unlike <div>).
+
+Its main use is to apply styles or scripts to a small part of text or group inline elements without affecting layout.
+
+
+ex:-<p>My mother has <span style="color:blue">blue</span> eyes.</p>
