@@ -1,0 +1,10 @@
+11. How to center block elements using CSS1? 
+ans:The block element must have a specified width.
+
+Setting left and right margins to auto distributes the remaining horizontal space equally, centering the element.
+
+ex.div {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

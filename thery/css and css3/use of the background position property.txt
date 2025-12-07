@@ -1,0 +1,31 @@
+8. What is the use of the background-position property? 
+ans:
+background-position
+
+It controls where the background image appears—such as top, bottom, center, left, right, or even specific pixel/percentage positions.
+
+✅ Syntax
+background-position: value;
+
+✅ Common Values
+1. Keyword values
+background-position: top left;
+background-position: center;
+background-position: bottom right;
+
+2. Percentage values
+background-position: 50% 50%;    /* center */
+background-position: 0% 100%;    /* bottom-left */
+
+3. Pixel values
+background-position: 10px 20px;  /* 10px from left, 20px from top */
+
+4. Mixed values
+background-position: right 10px top 20px;
+
+✅ Example
+div {
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

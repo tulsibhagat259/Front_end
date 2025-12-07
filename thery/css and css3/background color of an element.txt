@@ -1,0 +1,27 @@
+6. How can the background color of an element be changed? 
+ans:
+Syntax
+selector {
+    background-color: color;
+}
+
+ Example
+div {
+    background-color: lightblue;
+}
+
+1. Named colors
+background-color: red;
+
+2. HEX values
+background-color: #ff5733;
+
+3. RGB
+background-color: rgb(255, 99, 71);
+
+4. RGBA (with transparency)
+background-color: rgba(255, 99, 71, 0.5);
+
+5. HSL
+background-color: hsl(120, 100%, 50%);
+

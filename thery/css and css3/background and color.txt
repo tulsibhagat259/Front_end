@@ -1,0 +1,4 @@
+10.Why should background and color be used as separate properties?
+ans:color → controls text color
+
+background → controls background color, image, repeat, size, etc.
