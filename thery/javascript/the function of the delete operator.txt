@@ -1,0 +1,30 @@
+13.What is the function of the delete operator? 
+
+ans:
+
+Deletes a property from an object
+
+Returns true if deletion is successful
+
+Does NOT delete variables declared with var, let, or const
+
+Example 1: Deleting a property from an object
+let person = {
+    name: "Riya",
+    age: 20
+};
+
+delete person.age;
+
+console.log(person);
+// { name: "Riya" }
+
+Example 2: Deleting array elements
+
+(Delete leaves an empty slot, not recommended)
+
+let arr = [10, 20, 30];
+
+delete arr[1];
+
+console.log(arr);

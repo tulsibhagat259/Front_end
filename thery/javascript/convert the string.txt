@@ -1,0 +1,29 @@
+12.How can you convert the string of any base to an integer in 
+JavaScript? 
+
+
+ans:
+
+Using parseInt(string, base)
+
+parseInt() takes two arguments:
+
+The string you want to convert
+
+The base (radix) — from 2 to 36
+
+Examples
+Convert Binary (base 2) to Integer
+parseInt("1010", 2);   // 10
+
+Convert Octal (base 8) to Integer
+parseInt("17", 8);     // 15
+
+Convert Decimal (base 10) to Integer
+parseInt("25", 10);    // 25
+
+Convert Hexadecimal (base 16) to Integer
+parseInt("FF", 16);    // 255
+
+Convert Base 36 to Integer
+parseInt("Z", 36);     // 35 

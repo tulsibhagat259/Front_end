@@ -1,0 +1,22 @@
+5.What are undeclared and undefined variables?
+ans:
+
+Undeclared Variables:An undeclared variable is a variable that has not been declared using var, let, or const.
+Example:
+console.log(a);
+
+
+Undefined Variables:It has been declared, but no value has been assigned.
+Example:
+let x;
+console.log(x);
+
+
+
+
+
+Feature               Undeclared	        Undefined
+Declared?	       ❌ No	                ✔️ Yes
+Value present?	       ❌ No	                ❌ No (empty state)
+Error?	               Causes ReferenceError	 Does not cause error
+Example  	       console.log(a)	         let a; console.log(a)

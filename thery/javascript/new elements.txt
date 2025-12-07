@@ -1,0 +1,56 @@
+6. Write the code for adding new elements dynamically? 
+ans:
+
+
+Example 1: Adding a new <p> element
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="container"></div>
+
+<script>
+    // Create a new element
+    let newPara = document.createElement("p");
+
+    // Add text inside the element
+    newPara.textContent = "This is a dynamically added paragraph!";
+
+    // Add it to the page
+    document.getElementById("container").appendChild(newPara);
+</script>
+
+</body>
+</html>
+
+ Example 2: Add a new list item to a list
+<ul id="myList">
+    <li>Item 1</li>
+</ul>
+
+<script>
+function addItem() {
+    let li = document.createElement("li");     // Create <li>
+    li.innerText = "New Item";                 // Set text
+    document.getElementById("myList").appendChild(li); // Add to UL
+}
+
+addItem();
+</script>
+
+ Example 3: Add element on button click
+<button onclick="addBox()">Add Box</button>
+<div id="area"></div>
+
+<script>
+function addBox() {
+    let box = document.createElement("div");
+    box.style.width = "100px";
+    box.style.height = "100px";
+    box.style.background = "lightblue";
+    box.style.margin = "10px";
+    box.textContent = "New Box";
+
+    document.getElementById("area").appendChild(box);
+}
+</script>
