@@ -1,0 +1,18 @@
+17.What is the meaning of the CSS selector? 
+ans:Element selector (p, h1)
+
+Class selector (.title)
+
+ID selector (#header)
+
+Universal selector (*)
+
+Attribute selector (input[type="text"])
+
+Pseudo-class selector (a:hover)
+
+Pseudo-element selector (::before)
+
+ex.p {
+  color: red;
+}

@@ -1,0 +1,24 @@
+5.What do you understand by CSS opacity? 
+ans:CSS Opacity
+
+The opacity property in CSS determines how transparent or visible an element is.
+
+It takes a value between:
+
+1 → fully visible (100% opaque)
+
+0 → completely invisible (100% transparent)
+
+Example values:
+
+opacity: 1; → no transparency
+
+opacity: 0.5; → 50% transparent
+
+opacity: 0; → invisible
+
+Example
+.box {
+    opacity: 0.6;
+}
+

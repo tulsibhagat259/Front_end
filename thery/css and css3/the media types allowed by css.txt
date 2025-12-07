@@ -1,0 +1,17 @@
+18.What are the media types allowed by CSS?
+ans:1. all
+
+Used for all media types (default).
+
+2. screen
+
+For computer screens, tablets, smartphones, etc.
+
+3. print
+
+For printed documents or print preview mode.
+
+4. speech
+
+For screen readers that read content aloud.
+

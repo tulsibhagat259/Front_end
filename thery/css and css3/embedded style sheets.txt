@@ -1,0 +1,15 @@
+14. What is embedded style sheets?
+ans:When you want to style only one web page.
+
+    When you need quick or page-specific styling.
+
+    When external CSS is not necessary.
+
+  ex.<head>
+<style>
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+</style>
+</head>

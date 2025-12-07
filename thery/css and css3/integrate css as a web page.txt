@@ -1,0 +1,14 @@
+13.What are the ways to integrate CSS as a web page? 
+ans:
+1. Inline CSS
+<p style="color: blue;">This is inline CSS.</p>
+
+2. Internal CSS (Embedded)
+<head>
+<style>
+  p { color: red; }
+</style>
+</head>
+
+3. External CSS
+<link rel="stylesheet" href="styles.css">

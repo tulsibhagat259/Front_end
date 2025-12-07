@@ -1,0 +1,11 @@
+ 1.What are the benefits of using CSS? 
+ans:1. Separation of Content and Design
+    2. Reusability and Efficiency
+    3. Faster Page Loading
+    4. Better Consistency Across the Website
+    5. Improved Accessibility
+    6. Responsiveness and Adaptability
+    7. Enhanced Visual Appearance
+    8. Better Control Over Layout
+    9. Cleaner and More Maintainable HTML
+    10. Widespread Support

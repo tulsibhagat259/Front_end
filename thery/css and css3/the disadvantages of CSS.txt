@@ -1,0 +1,10 @@
+2.What are the disadvantages of CSS? 
+ans:1. Cross-Browser Compatibility Issues
+    2. No Built-In Logic or Conditions
+    3. Global Scope Can Cause Conflicts
+    4. Difficult to Debug
+    5. Limited Layout Control in Older CSS
+    6. Security Risks (CSS-Based Attacks)
+    7. Browser Support for New Features Takes Time
+    8. Hard to Scale Without Structure
+    9. Performance Issues with Large or Complex Styles

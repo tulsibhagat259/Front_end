@@ -1,0 +1,78 @@
+12. How to maintain the CSS specifications?
+ans:
+1. Follow a Consistent Naming Convention
+
+Use predictable, readable class names.
+
+BEM (Block Element Modifier) is a common method:
+
+header__logo--small
+
+This avoids conflicts and makes styles easier to understand.
+
+2. Organize CSS Properly
+
+Break CSS into logical sections:
+
+Typography
+
+Layout
+
+Colors
+
+Components
+
+Utilities
+
+Or use multiple CSS files for large projects.
+
+3. Avoid Inline CSS
+
+Inline styles are hard to maintain.
+Use external CSS files instead:
+
+<link rel="stylesheet" href="style.css">
+
+4. Use Comments
+
+Comment complex rules or sections:
+
+/* Navigation bar styles */
+.nav { ... }
+
+
+Helps future editing and teamwork.
+
+5. Keep CSS DRY (Don’t Repeat Yourself)
+
+Avoid duplicating styles.
+Use reusable classes instead of rewriting the same properties.
+6. Validate CSS Using Validators
+
+Use tools like W3C CSS Validator to check errors and maintain standards.
+
+7. Use CSS Preprocessors (Optional)
+
+Tools like SASS or LESS help organize styles better with:
+
+Variables
+
+Mixins
+
+Nesting
+
+(Though not part of CSS itself, they make maintenance easier.)
+
+8. Test Across Browsers and Devices
+
+Ensure the CSS works consistently on:
+
+Chrome
+
+Firefox
+
+Safari
+
+Edge
+
+Mobile browsers
