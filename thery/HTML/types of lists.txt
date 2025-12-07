@@ -1,0 +1,26 @@
+4.What are different types of lists in HTML? 
+ans:-
+
+Ordered List
+
+<ol>
+  <li>Boil water</li>
+  <li>Add tea leaves</li>
+  <li>Pour into cup</li>
+</ol>
+
+Unordered List
+
+<ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Oranges</li>
+</ul>
+
+
+Definition List
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+</dl>

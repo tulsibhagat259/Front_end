@@ -1,0 +1,2 @@
+17.What is SVG? 
+ans:-SVG stands for Scalable Vector Graphics. It is a vector-based image format that uses XML to define graphics. Unlike raster images (like JPEGs or PNGs), SVG images are resolution-independent, meaning they can be scaled to any size without losing quality.

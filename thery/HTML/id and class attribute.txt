@@ -1,0 +1,31 @@
+6.What is the difference between the ‘id’ attribute and the 
+‘class’ attribute of HTML elements?
+
+ans:-
+
+id Attribute
+
+Used to uniquely identify one single element on a page.
+
+No two elements should share the same id.
+
+In CSS or JavaScript, it’s selected using a hash (#) symbol.
+
+
+<p id="red">This is a file</p>
+
+
+
+
+class Attribute
+
+
+Used to group multiple elements together under the same name.
+
+You can assign the same class to many elements.
+
+In CSS or JavaScript, it’s selected using a dot (.) symbol.
+
+
+
+<p class="blue">This is note one.</p>
