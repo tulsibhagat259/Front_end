@@ -1,8 +1,0 @@
-5. What is the ‘class’ attribute in HTML? 
-
-ans:-The class attribute is used to group HTML elements under a common name.
-
-It helps when you want to style or control multiple elements at once using CSS or JavaScript.
-
-<p class="intro">Welcome to my website!</p>
-<p class="intro">Enjoy learning HTML.</p>
