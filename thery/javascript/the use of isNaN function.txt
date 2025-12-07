@@ -1,0 +1,18 @@
+2.What is the use of isNaN function? 
+
+ans: The isNaN() function in JavaScript is used to check whether a value is Not a Number (NaN).
+
+isNaN(value) returns:
+
+true → if the value is not a valid number
+
+false → if the value is a valid number
+
+Example
+let age = prompt("Enter your age");
+
+if (isNaN(age)) {
+  alert("Please enter a valid number");
+} else {
+  alert("Valid age!");
+}

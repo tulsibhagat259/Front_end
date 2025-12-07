@@ -1,0 +1,49 @@
+17.What are the disadvantages of using innerHTML in JavaScript?
+
+ans:
+
+
+1. It Replaces the Entire Content
+
+When you use innerHTML, the browser removes all existing HTML inside the element and recreates it.
+
+element.innerHTML += "<p>New item</p>";
+
+
+Even this simple += causes:
+
+Loss of previous event listeners
+
+Re-rendering of the entire content
+
+2. Security Risk (XSS Attacks)
+
+If you insert user-provided content using innerHTML, it can execute malicious scripts.
+
+Example:
+
+innerHTML = "<script>alert('Hacked!')</script>";
+
+
+This is why innerHTML is considered unsafe.
+
+3. Slow Performance
+
+Replacing HTML repeatedly causes:
+
+More DOM operations
+
+Slower rendering
+
+Larger memory usage
+
+Especially harmful for loops and big UI updates.
+
+4. Removes Event Handlers
+
+If the element had JavaScript events added using addEventListener(), they are removed.
+
+Example:
+
+btn.addEventListener("click", handler);
+div.innerHTML = "..."; 

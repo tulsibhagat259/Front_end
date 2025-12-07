@@ -1,0 +1,4 @@
+1.What is JavaScript?
+
+ans: JavaScript is a programming language used to make web pages interactive.
+Along with HTML and CSS, it is one of the core technologies of web development.

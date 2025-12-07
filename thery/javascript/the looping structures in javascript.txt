@@ -1,0 +1,62 @@
+11.What are all the looping structures in JavaScript?
+
+ans: 
+
+
+1. for Loop
+
+Used when you know how many times to run the loop.
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+2. while Loop
+
+Runs as long as the condition is true.
+
+let i = 1;
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+3. do...while Loop
+
+Executes the code at least once, then checks the condition.
+
+let i = 1;
+do {
+    console.log(i);
+    i++;
+} while (i <= 5);
+
+4. for...in Loop
+
+Used to loop through object properties.
+
+let person = { name: "Riya", age: 20 };
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+
+5. for...of Loop
+
+Used to loop through iterables like arrays, strings, maps, sets, etc.
+
+let arr = [10, 20, 30];
+
+for (let value of arr) {
+    console.log(value);
+}
+
+6. Array.forEach() Method
+
+A built-in array method for looping.
+
+let nums = [1, 2, 3];
+
+nums.forEach(function(n) {
+    console.log(n);
+});

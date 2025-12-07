@@ -1,0 +1,50 @@
+9. How can the style/class of an element be changed?
+
+ans:
+Style of an Element
+
+Example:
+<p id="text">Hello</p>
+
+<script>
+document.getElementById("text").style.color = "red";
+document.getElementById("text").style.fontSize = "20px";
+</script>
+
+Class of an Element
+
+Replace the entire class
+document.getElementById("text").className = "newClass";
+
+Add a class
+document.getElementById("text").classList.add("highlight");
+
+Remove a class
+document.getElementById("text").classList.remove("highlight");
+
+Toggle a class (add if not present, remove if present)
+document.getElementById("text").classList.toggle("active");
+
+
+
+
+
+CSS class switching
+
+<style>
+.highlight {
+    background-color: yellow;
+    padding: 10px;
+}
+</style>
+
+<p id="msg">This is a message</p>
+<button onclick="changeStyle()">Change Style</button>
+
+<script>
+function changeStyle() {
+    document.getElementById("msg").classList.add("highlight");
+}
+</script>
+
+

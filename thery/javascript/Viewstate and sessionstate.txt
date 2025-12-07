@@ -1,0 +1,13 @@
+7.What is the difference between ViewState and SessionState?
+
+ans:
+
+ 	              ViewState	                                                                         SessionState
+	              Store data for a single page	                                                 Store data for a user session (multiple pages)
+	              Lost when the page is refreshed or moves to another page	                         Exists until browser is closed or session expires
+	              Stored in the page itself (hidden field in the browser)	                         Stored on the server
+	              Only available within the same page	                                         Available to all pages in the same session
+	              Less secure (stored on client browser, can be viewed)	                         More secure (stored on server)
+	              Limited (larger size slows page load)	                                         Can store more data (server memory limit)
+	              Maintaining control values between postbacks	                                 Storing user login info, shopping cart items, etc.
+	              Slower if too large (increases page weight)	                                 Faster for client but uses server memory
