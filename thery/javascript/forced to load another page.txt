@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 16.How can a page be forced to load another page in JavaScript?
 
 ans: 
@@ -21,4 +22,29 @@ window.location.replace("https://example.com");
 4. Using window.location.reload()
 
 Ex:
+=======
+16.How can a page be forced to load another page in JavaScript?
+
+ans: 
+
+1. Using window.location.href
+
+EX:
+window.location.href = "https://example.com";
+
+2. Using window.location.assign()
+
+EX:
+window.location.assign("https://example.com")
+
+3. Using window.location.replace()
+
+Ex:
+window.location.replace("https://example.com");
+
+
+4. Using window.location.reload()
+
+Ex:
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5
 window.location.reload();

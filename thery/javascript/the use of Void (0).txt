@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 15.What is the use of Void (0)?
 
 ans:In JavaScript, void(0) (or void 0) is used to evaluate an expression and return undefined.
@@ -5,4 +6,13 @@ It is commonly used to prevent a link from navigating or prevent default behavio
 
 
 Example:
+=======
+15.What is the use of Void (0)?
+
+ans:In JavaScript, void(0) (or void 0) is used to evaluate an expression and return undefined.
+It is commonly used to prevent a link from navigating or prevent default behavior.
+
+
+Example:
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5
 <a href="javascript:void(0)">Click me</a>

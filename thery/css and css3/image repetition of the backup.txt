@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 7.How can image repetition of the backup be controlled?
 ans: 
 1. repeat (default)
@@ -41,3 +42,48 @@ body {
     background-image: url("image.jpg");
     background-repeat: no-repeat;
 }
+=======
+7.How can image repetition of the backup be controlled?
+ans: 
+1. repeat (default)
+
+Repeats the image both horizontally and vertically.
+
+background-repeat: repeat;
+
+2. repeat-x
+
+Repeats the image horizontally only.
+
+background-repeat: repeat-x;
+
+3. repeat-y
+
+Repeats the image vertically only.
+
+background-repeat: repeat-y;
+
+4. no-repeat
+
+Shows the image only once (no repeating).
+
+background-repeat: no-repeat;
+
+5. space
+
+Repeats the image with equal spacing between images.
+
+background-repeat: space;
+
+6. round
+
+Resizes the image so it repeats without being cut.
+
+background-repeat: round;
+
+✅ Example
+body {
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+}
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

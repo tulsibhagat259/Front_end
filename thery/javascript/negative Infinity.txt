@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 3. What is negative Infinity? 
 ans: Negative Infinity (-Infinity) is a special numeric value that represents a number smaller than any other number.
 
@@ -7,3 +8,14 @@ It is part of JavaScript’s number system (IEEE 754 standard).
 
 It behaves like a mathematical negative infinity.
 
+=======
+3. What is negative Infinity? 
+ans: Negative Infinity (-Infinity) is a special numeric value that represents a number smaller than any other number.
+
+It is a value less than all other numbers.
+
+It is part of JavaScript’s number system (IEEE 754 standard).
+
+It behaves like a mathematical negative infinity.
+
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

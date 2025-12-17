@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 8.What is === operator? 
 
 ans: The === operator in JavaScript is called the strict equality operator.
@@ -12,4 +13,20 @@ Data type equality
 Example
 5 === 5        
 5 === "5"      
+=======
+8.What is === operator? 
+
+ans: The === operator in JavaScript is called the strict equality operator.
+
+=== checks both:
+
+Value equality
+
+Data type equality
+
+
+Example
+5 === 5        
+5 === "5"      
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5
 true === 1 

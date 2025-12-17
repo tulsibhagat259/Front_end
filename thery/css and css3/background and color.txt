@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 10.Why should background and color be used as separate properties?
 ans:color → controls text color
 
 background → controls background color, image, repeat, size, etc.
+=======
+10.Why should background and color be used as separate properties?
+ans:color → controls text color
+
+background → controls background color, image, repeat, size, etc.
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

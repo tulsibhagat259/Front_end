@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 4.Which company developed JavaScript?
 ans:JavaScript was developed by Netscape Communications Corporation.
 
@@ -10,4 +11,18 @@ Why it was created
 
 The history of its name (Mocha → LiveScript → JavaScript)
 
+=======
+4.Which company developed JavaScript?
+ans:JavaScript was developed by Netscape Communications Corporation.
+
+✨ It was created in 1995 by Brendan Eich while he was working at Netscape.
+JavaScript was first introduced in the Netscape Navigator web browser.
+
+If you want, I can also tell you:
+
+Why it was created
+
+The history of its name (Mocha → LiveScript → JavaScript)
+
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5
 Difference between Java and JavaScript 

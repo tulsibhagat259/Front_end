@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 15.What are the external style sheets? 
 ans:One CSS file can style many pages.
 
@@ -15,3 +16,22 @@ CSS (styles.css):
 h1 {
   color: green;
 }
+=======
+15.What are the external style sheets? 
+ans:One CSS file can style many pages.
+
+Easy to update and maintain.
+
+Cleaner HTML structure.
+
+ex.HTML:
+
+<link rel="stylesheet" href="styles.css">
+
+
+CSS (styles.css):
+
+h1 {
+  color: green;
+}
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

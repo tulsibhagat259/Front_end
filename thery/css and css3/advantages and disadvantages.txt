@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 16. What are the advantages and disadvantages of using external style sheets?
 ans:Advantages of External Style Sheets
 1. Consistency Across Web Pages
@@ -27,3 +28,34 @@ If the user is offline or the CSS file is missing, the page will not show the in
 
 4. More Complex for Small Projects
 For very small pages, using an external stylesheet may be unnecessary compared to inline or internal CSS.
+=======
+16. What are the advantages and disadvantages of using external style sheets?
+ans:Advantages of External Style Sheets
+1. Consistency Across Web Pages
+A single CSS file can style multiple HTML pages, ensuring a uniform look across the entire website.
+
+2. Easy Maintenance
+You only need to edit one CSS file to update the design of the entire site.
+
+3. Cleaner HTML Code
+HTML remains neat because all styling is kept separate from the content.
+
+4. Faster Page Loading
+Browsers cache the external CSS file, so it loads faster on subsequent pages.
+
+5. Reusability
+The same stylesheet can be reused in different projects or pages.
+
+❌ Disadvantages of External Style Sheets
+1. Requires an Extra HTTP Request
+When the page loads, the browser must fetch the external CSS file, which may cause a slight delay.
+
+2. Pages May Load Unstyled Initially
+If the CSS file loads slowly, the page may appear without styling for a moment (flash of unstyled content).
+
+3. No Offline Styling
+If the user is offline or the CSS file is missing, the page will not show the intended styles.
+
+4. More Complex for Small Projects
+For very small pages, using an external stylesheet may be unnecessary compared to inline or internal CSS.
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

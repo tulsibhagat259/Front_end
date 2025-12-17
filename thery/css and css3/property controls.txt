@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 9.Which property controls the image scroll in the background? 
 ans:
 1. scroll (default)
@@ -23,3 +24,30 @@ body {
     background-image: url("image.jpg");
     background-attachment: fixed;
 }
+=======
+9.Which property controls the image scroll in the background? 
+ans:
+1. scroll (default)
+
+The background image moves when the page is scrolled.
+
+background-attachment: scroll;
+
+2. fixed
+
+The background image stays fixed in place even when the page scrolls.
+
+background-attachment: fixed;
+
+3. local
+
+The background image scrolls with the element’s content (useful for scrollable containers).
+
+background-attachment: local;
+
+✅ Example
+body {
+    background-image: url("image.jpg");
+    background-attachment: fixed;
+}
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 3.What is the difference between CSS2 and CSS3?
 ans:      CSS2                               CSS3
     
@@ -15,3 +16,22 @@ ans:      CSS2                               CSS3
 
      Single image                            Multiple images, background-size
 
+=======
+3.What is the difference between CSS2 and CSS3?
+ans:      CSS2                               CSS3
+    
+     Single specification                    Modular   
+
+     Floats, tables                          Flexbox, Grid
+
+     Basic                                   Shadows, gradients, rounded corners
+ 
+     Not supported                           Built-in animations + transitions
+
+     Not supported                           Media queries
+
+     Basic                                   Advanced selectors
+
+     Single image                            Multiple images, background-size
+
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

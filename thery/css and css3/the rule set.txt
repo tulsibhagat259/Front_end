@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 19.What is the rule set?
 ans:A CSS rule set consists of a selector and a declaration block.
 
@@ -12,3 +13,19 @@ p {
   color: blue;
   font-size: 18px;
 }
+=======
+19.What is the rule set?
+ans:A CSS rule set consists of a selector and a declaration block.
+
+Selector 
+
+Declaration block
+
+Declaration
+
+✅ Example of a Rule Set
+p {
+  color: blue;
+  font-size: 18px;
+}
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 10.How to read and write a file using JavaScript?
 
 ans: 
@@ -60,3 +61,67 @@ fs.writeFile("output.txt", "Hello World!", (err) => {
     console.log("File written successfully!");
 });
 
+=======
+10.How to read and write a file using JavaScript?
+
+ans: 
+1. In Browser (Client-side JavaScript)
+
+Reading a File:
+<input type="file" id="fileInput">
+<p id="output"></p>
+
+<script>
+document.getElementById("fileInput").addEventListener("change", function() {
+    let file = this.files[0];
+    let reader = new FileReader();
+
+    reader.onload = function() {
+        document.getElementById("output").textContent = reader.result;
+    };
+
+    reader.readAsText(file);
+});
+</script>
+
+
+
+Writing a File:
+let data = "Hello, this is a sample text file.";
+let blob = new Blob([data], { type: "text/plain" });
+
+let link = document.createElement("a");
+link.href = URL.createObjectURL(blob);
+link.download = "example.txt";
+link.click();
+
+
+
+2.In Node.js (Server-side JavaScript)
+
+Reading a File:
+
+const fs = require("fs");
+
+fs.readFile("input.txt", "utf8", (err, data) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
+    console.log(data);
+});
+
+
+Writing a File:
+
+const fs = require("fs");
+
+fs.writeFile("output.txt", "Hello World!", (err) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
+    console.log("File written successfully!");
+});
+
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

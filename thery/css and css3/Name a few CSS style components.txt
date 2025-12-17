@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 4. Name a few CSS style components
 ans: 
 
@@ -13,3 +14,20 @@ width / height
 text-align 
 display 
 position
+=======
+4. Name a few CSS style components
+ans: 
+
+*Basic CSS Style Components                Optional: More Advanced Components
+color                                    box-shadow                            
+background                               opacity
+font-size                                background-image
+font-family                              flex / grid properties 
+margin                                   transition                                    
+padding                                  animation
+border 
+width / height
+text-align 
+display 
+position
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 14.What are all the types of Pop up boxes available in JavaScript?
 
 ans: 
@@ -23,4 +24,31 @@ Used to take input from the user.
 
 Example:
 let name = prompt("Enter your name:");
+=======
+14.What are all the types of Pop up boxes available in JavaScript?
+
+ans: 
+
+1.Alert Box (alert())
+
+Used to display a simple message to the user.
+
+Example:
+alert("This is an alert message!");
+
+2. Confirm Box (confirm())
+
+Used to ask the user to confirm something (Yes/No type).
+
+Example:
+let result = confirm("Are you sure you want to delete?");
+
+
+3. Prompt Box (prompt())
+
+Used to take input from the user.
+
+Example:
+let name = prompt("Enter your name:");
+>>>>>>> 3655f7386090f31730cac00dfd7ac71d9c251bc5
 console.log(name);
