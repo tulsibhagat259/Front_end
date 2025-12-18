@@ -1,0 +1,15 @@
+3.What are the default Bootstrap text settings?
+
+ans:Bootstrap provides built-in text styles to ensure consistent, readable typography across web pages. By default, Bootstrap applies the following text settings:
+
+
+1. Font Family
+2. Font Size
+3. Font Weight
+4. Line Height
+5. Text Color
+6. Headings (h1 – h6)
+7. Paragraphs (p)
+8. Text Alignment
+9. Links (<a>)
+10. Responsive Typography

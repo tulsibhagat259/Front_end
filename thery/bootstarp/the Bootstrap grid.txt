@@ -1,0 +1,29 @@
+4.What do you know about the Bootstrap Grid System? 
+
+ans:The Bootstrap Grid System is a responsive layout system that helps you create structured web page layouts using rows and columns. It is based on a 12-column layout and uses Flexbox
+
+
+
+1.12-Column Layout
+
+Each row is divided into 12 equal columns.
+
+You can combine columns to create different layouts
+(e.g., 6 + 6, 4 + 4 + 4, 3 + 9).
+
+2.Responsive Design
+
+Automatically adjusts layout for different screen sizes:
+Mobile
+
+Tablet
+
+Laptop
+
+Desktop
+
+3.sMobile-First Approach
+
+Default styles apply to small screens first.
+
+Larger screen styles are added using breakpoints.

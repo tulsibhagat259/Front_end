@@ -1,0 +1,32 @@
+9. How can one create an alert in Bootstrap? 
+
+ans:
+
+
+1. Basic Alert
+<div class="alert alert-success">
+  This is a success alert!
+</div>
+
+2. Alert Types (Contextual Classes)
+<div class="alert alert-primary">Primary alert</div>
+<div class="alert alert-secondary">Secondary alert</div>
+<div class="alert alert-success">Success alert</div>
+<div class="alert alert-danger">Danger alert</div>
+<div class="alert alert-warning">Warning alert</div>
+<div class="alert alert-info">Info alert</div>
+<div class="alert alert-light">Light alert</div>
+<div class="alert alert-dark">Dark alert</div>
+
+3. Dismissible Alert
+<div class="alert alert-warning alert-dismissible fade show">
+  Warning alert!
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+</div>
+
+
+
+4. Alert with Link
+<div class="alert alert-info">
+  Check <a href="#" class="alert-link">this link</a>.
+</div>

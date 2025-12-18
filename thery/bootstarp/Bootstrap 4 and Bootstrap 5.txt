@@ -1,0 +1,17 @@
+5.What is the difference between Bootstrap 4 and Bootstrap 5 
+
+ans:
+
+
+	Bootstrap 4	                    Bootstrap 5
+	Required	                   ❌ Removed
+	Supported (IE10/11)	           ❌ Not supported
+	Flexbox-based	                   Flexbox (enhanced)
+	Up to xl	                   Added xxl (≥1400px)
+	Uses .form-group	           .form-group removed, simpler forms
+	Limited	                           Expanded utility API
+	❌ No	                           ✅ Yes
+	Not included	                   Provided via Bootstrap Icons
+	Fixed	                           Adjustable using .g-* classes
+	Minimal	                           Extensive use
+	jQuery-based	                   Vanilla JS-based

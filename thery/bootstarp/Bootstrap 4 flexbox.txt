@@ -1,0 +1,48 @@
+8.In Bootstrap 4, what is flexbox?
+
+ans:In Bootstrap 4, Flexbox is the CSS layout model used to design flexible and responsive page layouts. Bootstrap 4’s grid system and many utility classes are built on top of CSS Flexbox.
+
+
+Flexbox allows elements to:
+
+Align items horizontally or vertically
+
+Distribute space dynamically
+
+Reorder elements without changing HTML
+
+Bootstrap 4 uses Flexbox to make layouts responsive and easier to control.
+
+
+
+Bootstrap 4 provides ready-to-use Flexbox utility classes, such as:
+
+Enable flex
+
+d-flex
+
+
+Direction
+
+flex-row
+flex-column
+
+
+Alignment
+
+justify-content-start
+justify-content-center
+justify-content-between
+align-items-start
+align-items-center
+
+
+Wrap
+
+flex-wrap
+
+Example
+<div class="d-flex justify-content-center align-items-center">
+  <div>Item 1</div>
+  <div>Item 2</div>
+</div>

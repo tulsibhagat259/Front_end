@@ -1,0 +1,46 @@
+2.What is a Bootstrap Container, and how does it work? 
+
+ans:A Bootstrap container is a fundamental layout element that is used to wrap and align website content. It provides proper spacing (padding) and helps organize content within Bootstrap’s grid system.
+
+
+
+1. .container
+
+<div class="container">
+  Content here
+</div>
+
+
+2. .container-fluid
+
+<div class="container-fluid">
+  Content here
+</div>
+
+
+3. .container-{breakpoint} (Bootstrap 4 & 5)
+
+Examples:
+
+.container-sm
+
+.container-md
+
+.container-lg
+
+.container-xl
+
+.container-xxl
+
+<div class="container-lg">
+  Content here
+</div>
+
+
+4..Container in the Grid System
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">Column 1</div>
+    <div class="col-md-6">Column 2</div>
+  </div>
+</div>
