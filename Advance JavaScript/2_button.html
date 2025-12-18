@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3 class="item">HTML</h3>
+    <h3 class="item">CSS</h3>
+    <h3 class="item">JavaScript</h3>
+    <h3 class="item">Bootstrap</h3>
+
+    <button id="btn">Click Me</button>
+
+
+    <script>
+        let items = document.getElementById("item")
+        let button = document.getElementById("btn")
+
+        // button.addEventListener("click", () => {
+        //     items.forEach((item, index) => {
+        //         alert(`Item ${index + 1}: ${item.textContent}`);
+        //     });
+        // });
+
+
+
+
+        button.addEventListener("click", () => {
+            for (let item of items) {
+                alert(item.innerText);
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

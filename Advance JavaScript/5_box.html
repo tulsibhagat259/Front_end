@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modal Box</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        /* Modal Background */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Modal Box */
+        .modal-content {
+            background: #fff;
+            padding: 20px;
+            width: 300px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        /* Close Button */
+        .close {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        /* Show Modal */
+        .modal.active {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="open-btn" data-modal="modal1">Open Modal 1</button>
+    <button class="open-btn" data-modal="modal2">Open Modal 2</button>
+    <button class="open-btn" data-modal="modal3">Open Modal 3</button>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Modal One</h2>
+            <p>This is the first modal box.</p>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Modal Two</h2>
+            <p>This is the second modal box.</p>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Modal Three</h2>
+            <p>This is the third modal box.</p>
+        </div>
+    </div>
+    <script>
+
+        const openButtons = document.querySelectorAll(".open-btn");
+        const modals = document.querySelectorAll(".modal");
+        const closeButtons = document.querySelectorAll(".close");
+
+        // Open Modal
+        openButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const modalId = btn.getAttribute("data-modal");
+                document.getElementById(modalId).classList.add("active");
+            });
+        });
+
+        // Close Modal (X button)
+        closeButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                btn.closest(".modal").classList.remove("active");
+            });
+        });
+
+        // Close Modal when clicking outside
+        window.addEventListener("click", (e) => {
+            modals.forEach(modal => {
+                if (e.target === modal) {
+                    modal.classList.remove("active");
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

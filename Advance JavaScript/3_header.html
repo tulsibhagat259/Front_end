@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    }
+
+    .header {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .logo {
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    .nav {
+    display: flex;
+    gap: 20px;
+    }
+
+    .nav a {
+    color: white;
+    }
+
+    .menu-btn {
+    padding: 10px;
+    font-size:20px;
+    background:lightcoral;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    }
+
+    
+    @media (max-width: 768px) {
+    .nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #333;
+    width: 200px;
+    flex-direction: column;
+    padding: 15px;
+    
+    }
+
+    .nav.active {
+    display: flex;
+    }
+
+    .menu-btn {
+    display: block;
+    }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">MyWebsite</div>
+
+        <nav class="nav" id="navMenu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">show more</button>
+    </header>
+
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const navMenu = document.getElementById("navMenu");
+
+        menuBtn.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+        });
+
+
+
+
+
+    </script>
+</body>
+
+</html>
