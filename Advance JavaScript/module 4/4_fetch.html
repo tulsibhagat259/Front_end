@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+
+    <!-- <h1 id="h1"></h1>
+
+    
+    <script>
+
+        function data() {
+            fetch("https://fakestoreapi.com/products", {
+                method: "GET"
+            })
+                .then((res) => {
+                    return res.json()
+                })
+                .then((data) => {
+                    for(let products of data){
+                        console.log(products)
+                        document.writeln(`<h3>id: ${products.id} title: ${products.title} price: ${products.price}</h3>`)
+                    }
+                    
+                
+            
+            })
+        }
+        data() -->
+
+         
+
+        <table class="table" border="1">
+        <thead>
+            <tr>
+                <th scope="col">#id</th>
+                <th scope="col">title</th>
+                <th scope="col">price</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+
+
+    <script>
+
+        fetch("https://fakestoreapi.com/products",{
+            method:"GET"
+        })
+        .then((res)=>{
+            return res.json()
+        })
+        .then((data=>{
+            console.log(data)
+            let htmldata = data.map((products,index)=>{
+                return(
+                    `
+                        <tr>    
+                            <td>${products.id}</td>
+                             <td>${products.title}</td>
+                             <td>${products.price}</td>
+                        </tr>
+                    `
+                )
+            })
+            document.querySelector("tbody").innerHTML = htmldata.join("")
+        }))
+    </script>
+
+</body>
+</html>
